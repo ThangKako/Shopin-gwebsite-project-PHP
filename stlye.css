@@ -1,0 +1,341 @@
+.logo{
+    width: 5%;
+    height: 5%;
+}
+
+/* mở đầu */
+#hero {
+  background-color: #f8f8f8;
+  padding: 100px 0;
+  text-align: center;
+}
+
+#hero h4 {
+  color: #ff6600;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+#hero h2 {
+  color: #333;
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+#hero h1 {
+  color: #333;
+  font-size: 60px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+#hero p {
+  color: #666;
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+#hero button {
+  background-color: #ff6600;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 15px 40px;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease;
+}
+
+#hero button:hover, button:focus {
+  background-color: #2980b9;
+}
+
+#hero button:active {
+  background-color: #e74c3c;
+}
+
+#feature{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#feature .fe-box{
+  width: 180px;
+  text-align: center;
+  padding: 25px 15px;
+  box-shadow:  20px 20px 20px rgba(0, 0, 0, 0.06);
+  border: 1px solid #95bead;
+  border-radius: 4px;
+  margin: 10px; /* updated margin */
+}
+
+#feature .fe-box:hover{
+  box-shadow: 10px 10px 54px rgba(10, 231, 231, 0.06);
+}
+
+#feature .fe-box img{
+  width: 100%;
+  margin-top: 10px;
+}
+
+#feature .fe-box h6{
+  padding:  9px 8px 6px 8px;
+  line-height: 1;
+  border-radius: 4px;
+  color: #088178;
+  background-color: #fddde5;
+}
+
+#feature .fe-box:nth-child(2) h6 {
+  background-color: #00ff95;
+}
+
+#feature .fe-box:nth-child(3) h6 {
+  background-color: #e6ff02;
+}
+
+#feature .fe-box:nth-child(4) h6 {
+  background-color: #78b6f0;
+}
+
+#feature .fe-box:nth-child(5) h6 {
+  background-color: #a97cf1;
+}
+
+#feature .fe-box:nth-child(6) h6 {
+  background-color: #c0e0e7;
+}
+
+.card-img-top{
+  width:100%;
+  height:300px;
+  object-fit: contain;
+}
+#page-header{
+  width: 100%;
+  height: 40vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  padding: 14px;
+}
+#page-header p{
+  color:tomato
+}
+
+#page-header h2 {
+  animation: glowing1 1300ms infinite;
+}
+
+.nav-item:hover {
+  background-color: green;
+}
+
+.nav-item:hover a {
+  color: white;
+}
+
+
+footer {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+  }
+  
+  footer h4 {
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  footer p {
+    color: #777;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  footer li {
+    color: #777;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  
+  footer li i {
+    margin-right: 10px;
+  }
+  
+  .social-icons li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .social-icons li a {
+    display: inline-block;
+    color: #333;
+    border: 1px solid #ccc;
+    padding: 8px;
+    border-radius: 50%;
+  }
+  
+  .social-icons li a:hover {
+    background-color: #333;
+    color: #fff;
+    border-color: #333;
+  }
+  
+/*Admin*/
+.Admin_img{
+  width: 100px;
+  object-fit: contain;
+}
+
+
+@media(max-width:799px){
+  /* Set the background color for the body */
+body {
+  background-color: #f7f7f7;
+  font-size: 16px;
+}
+
+/* Set the font color for the page */
+h1, h2, h3, h4, h5, h6, p {
+  color: #333;
+}
+
+/* Style the logo */
+.logo {
+  width: 50px;
+  height: 50px;
+}
+
+/* Center the navigation bar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 10px 15px;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+}
+
+/* Adjust the navigation links for smartphone size */
+nav .navbar-nav {
+  flex-direction: column;
+  margin: 10px 0;
+  padding: 0;
+}
+
+nav .nav-item {
+  margin: 5px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+nav .nav-item:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+
+nav .nav-link {
+  padding: 10px 0;
+  color: #333;
+  font-weight: bold;
+}
+
+nav .nav-link:hover {
+  color: #555;
+}
+
+body {
+  overflow: scroll;
+}
+
+
+/* Adjust the hero section for smartphone size */
+#hero {
+  text-align: center;
+  padding: 80px 0 60px;
+}
+
+#hero h4 {
+  font-size: 20px;
+}
+
+#hero h2 {
+  font-size: 30px;
+}
+
+#hero h1 {
+  font-size: 40px;
+  margin: 10px 0;
+}
+
+#hero p {
+  font-size: 16px;
+}
+
+#hero button {
+  display: inline-block;
+  padding: 12px 30px;
+  margin-top: 20px;
+  border-radius: 50px;
+  background-color: #f3a20c;
+  color: #fff;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+#hero button:hover {
+  background-color: #e5920b;
+}
+
+.card-text {
+  height: 100px; /* set a fixed height for the element */
+  overflow: hidden; /* hide any overflowing content */
+  text-overflow: ellipsis; /* add an ellipsis to indicate truncated content */
+}
+
+/* Adjust the feature section for smartphone size */
+#feature {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.fe-box {
+  display: inline-block;
+  width: 100%;
+  max-width: 200px;
+  margin: 10px 0;
+}
+
+.fe-box img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
+.fe-box h6 {
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+}

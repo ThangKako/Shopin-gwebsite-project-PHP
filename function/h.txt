@@ -1,0 +1,3 @@
+<input class='sll' onclick='var result = document.getElementById('quantity'); var qty = result.value; if( !isNaN(qty) &amp, qty > 1 ) result.value--;return false;' type='button' value='-' />
+                    <input class='sl' id='quantity' min='1' name='sl' type='text' value='1' />
+            <input class='sll' onclick='var result = document.getElementById('quantity'); var qty = result.value; if( !isNaN(qty)) result.value++;return false;' type='button' value='+' /> <br> <br>
